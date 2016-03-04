@@ -174,9 +174,59 @@ footer {
     line-height: 1.5em;
     padding-left: 2em;
     display: inline-block;
-    width: 45%; }
+    width: 45%;
+    box-sizing: border-box; }
 
   article {
-    font-size: 0.85em; } }
+    font-size: 0.85em; }
+
+  footer {
+    text-align: center; }
+
+  .article-header {
+    margin: 0 0.5em;
+    font-size: 2em;
+    margin-top: 3em;
+    font-family: 'Source Sans Pro', sans-serif; }
+
+  .article-header {
+    margin-bottom: 2em; }
+
+  .header2 {
+    margin-bottom: 2.75em; }
+
+  .article-footer {
+    margin-top: -2em; } }
+@media (min-width: 61.1875em) {
+  .green {
+    padding-left: 12.5%;
+    float: left;
+    width: 25%; }
+
+  .blue {
+    float: left;
+    width: 25%; }
+
+  .black {
+    float: left;
+    width: 25%; }
+
+  .article {
+    line-height: 1.5em;
+    padding-left: 6em;
+    display: inline-block;
+    width: 45%; }
+
+  .article-header {
+    margin-bottom: 1em; }
+
+  .article-footer {
+    margin-top: -1em; }
+
+  article {
+    font-size: 0.85em; }
+
+  footer {
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
