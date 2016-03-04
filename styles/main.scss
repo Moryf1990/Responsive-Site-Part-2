@@ -46,16 +46,19 @@ nav > a {
 .personal {
 	color: #fff;
 	font-size: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .five {
 	color: #fff;
 	font-size: 6em;
+	// font-family: 'Source Sans Pro', sans-serif;
 }
 
 .green-month {
 	color: #A6C6A6;
 	font-size: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .border {
@@ -97,6 +100,7 @@ nav > a {
 .blue-month {
 	color: #8C9BBC;
 	font-size: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .black-header2 {
@@ -110,6 +114,7 @@ nav > a {
 .black-month {
 	color: #858585;
 	font-size: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -165,4 +170,41 @@ footer {
 	.text {
 		font-size: 2em;
 	}
+}
+
+@media (min-width: 47.9375em) {
+		.image {
+			padding: 8em;
+		}
+
+		.text {
+			font-size: 3.5em;
+		}
+
+		.gray-header {
+			margin: 0 2em;
+		}
+
+		.green {
+			display: inline-block;
+			width: 33%;
+		}
+
+		.blue {
+			display: inline-block;
+			width: 33%;
+		}
+
+		.black {
+			display: inline-block;
+			width: 33%;
+		}
+
+		.personal {
+			font-size: 0.95em;
+		}
+
+		.month {
+			font-size: 1.25em;
+		}
 }

@@ -37,7 +37,8 @@ nav > a {
 
 .personal {
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .five {
   color: #fff;
@@ -45,7 +46,8 @@ nav > a {
 
 .green-month {
   color: #A6C6A6;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .border {
   border: 1px solid gray;
@@ -81,7 +83,8 @@ nav > a {
 
 .blue-month {
   color: #8C9BBC;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .black-header2 {
   margin: 0 0.5em;
@@ -92,7 +95,8 @@ nav > a {
 
 .black-month {
   color: #858585;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 h1 {
   margin: 0 0.5em;
@@ -138,5 +142,32 @@ footer {
 
   .text {
     font-size: 2em; } }
+@media (min-width: 47.9375em) {
+  .image {
+    padding: 8em; }
+
+  .text {
+    font-size: 3.5em; }
+
+  .gray-header {
+    margin: 0 2em; }
+
+  .green {
+    display: inline-block;
+    width: 33%; }
+
+  .blue {
+    display: inline-block;
+    width: 33%; }
+
+  .black {
+    display: inline-block;
+    width: 33%; }
+
+  .personal {
+    font-size: 0.95em; }
+
+  .month {
+    font-size: 1.25em; } }
 
 /*# sourceMappingURL=main.css.map */
