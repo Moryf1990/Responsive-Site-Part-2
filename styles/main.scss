@@ -186,17 +186,17 @@ footer {
 		}
 
 		.green {
-			display: inline-block;
+			float: left;
 			width: 33%;
 		}
 
-		.blue {
-			display: inline-block;
+		.blue { 
+			float: left;
 			width: 33%;
 		}
 
 		.black {
-			display: inline-block;
+			float: left;
 			width: 33%;
 		}
 
@@ -206,5 +206,16 @@ footer {
 
 		.month {
 			font-size: 1.25em;
+		}
+
+		.article {
+			line-height: 1.5em;
+			padding-left: 2em;
+			display: inline-block;
+			width: 45%;
+		}
+
+		article {
+			font-size: 0.85em;
 		}
 }

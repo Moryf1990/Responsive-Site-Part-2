@@ -153,21 +153,30 @@ footer {
     margin: 0 2em; }
 
   .green {
-    display: inline-block;
+    float: left;
     width: 33%; }
 
   .blue {
-    display: inline-block;
+    float: left;
     width: 33%; }
 
   .black {
-    display: inline-block;
+    float: left;
     width: 33%; }
 
   .personal {
     font-size: 0.95em; }
 
   .month {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  .article {
+    line-height: 1.5em;
+    padding-left: 2em;
+    display: inline-block;
+    width: 45%; }
+
+  article {
+    font-size: 0.85em; } }
 
 /*# sourceMappingURL=main.css.map */
