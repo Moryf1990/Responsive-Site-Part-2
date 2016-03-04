@@ -122,4 +122,21 @@ footer {
   color: #fff;
   font-size: 1.2em; }
 
+@media (min-width: 29.9375em) {
+  .black-header {
+    color: black;
+    float: left; }
+
+  .gray-header {
+    color: gray;
+    margin: 0 1em;
+    float: left; }
+
+  .image {
+    margin: 2em 0;
+    padding: 6em; }
+
+  .text {
+    font-size: 2em; } }
+
 /*# sourceMappingURL=main.css.map */
