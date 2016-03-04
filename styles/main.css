@@ -172,31 +172,18 @@ footer {
 
   .article {
     line-height: 1.5em;
-    padding-left: 2em;
     display: inline-block;
     width: 45%;
     box-sizing: border-box; }
+
+  .full {
+    overflow: hidden; }
 
   article {
     font-size: 0.85em; }
 
   footer {
-    text-align: center; }
-
-  .article-header {
-    margin: 0 0.5em;
-    font-size: 2em;
-    margin-top: 3em;
-    font-family: 'Source Sans Pro', sans-serif; }
-
-  .article-header {
-    margin-bottom: 2em; }
-
-  .header2 {
-    margin-bottom: 2.75em; }
-
-  .article-footer {
-    margin-top: -2em; } }
+    text-align: center; } }
 @media (min-width: 61.1875em) {
   .green {
     padding-left: 12.5%;
@@ -217,16 +204,12 @@ footer {
     display: inline-block;
     width: 45%; }
 
-  .article-header {
-    margin-bottom: 1em; }
-
-  .article-footer {
-    margin-top: -1em; }
-
   article {
+    float: left;
     font-size: 0.85em; }
 
   footer {
+    padding-bottom: 1em;
     text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
