@@ -1,0 +1,125 @@
+body {
+  margin: 0 auto; }
+
+nav {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0.5em; }
+
+nav > a {
+  text-decoration: none; }
+
+.black-header {
+  color: black; }
+
+.gray-header {
+  color: gray;
+  margin: 0 1em; }
+
+.image {
+  background: url("../images/background.jpg") 0 0 no-repeat;
+  padding: 4em; }
+
+.text {
+  color: #fff;
+  font-size: 1.75em;
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+.green-header {
+  margin: 0 0.5em;
+  margin-top: 3em;
+  background: #519251;
+  padding: 3em;
+  text-align: center; }
+
+.personal {
+  color: #fff;
+  font-size: 1.5em; }
+
+.five {
+  color: #fff;
+  font-size: 6em; }
+
+.green-month {
+  color: #A6C6A6;
+  font-size: 1.5em; }
+
+.border {
+  border: 1px solid gray;
+  margin: 0 0.4em;
+  background: #F7F7F7;
+  text-align: center;
+  color: #4D5A5F;
+  font-size: 1.2em;
+  padding: 1em; }
+
+.button {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 1em;
+  background: #fff;
+  border-radius: 2em;
+  width: 10em;
+  border: 1px solid gray; }
+
+.button-border {
+  border: 1px solid gray;
+  margin: 0 0.4em;
+  font-size: 1.2em;
+  padding: 1em; }
+
+.blue-header {
+  margin: 0 0.5em;
+  margin-top: 3em;
+  background: #2C4985;
+  padding: 3em;
+  text-align: center; }
+
+.blue-month {
+  color: #8C9BBC;
+  font-size: 1.5em; }
+
+.black-header2 {
+  margin: 0 0.5em;
+  margin-top: 3em;
+  background: #111;
+  padding: 3em;
+  text-align: center; }
+
+.black-month {
+  color: #858585;
+  font-size: 1.5em; }
+
+h1 {
+  margin: 0 0.5em;
+  font-size: 2em;
+  margin-top: 3em;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+article {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #526066;
+  margin: 1em;
+  font-weight: lighter;
+  font-size: 1.005em;
+  padding-right: 5em; }
+
+footer {
+  background: #111;
+  padding: 3em; }
+
+.footer-text {
+  color: #626262;
+  font-size: 1.2em; }
+
+.footer {
+  color: #fff;
+  font-size: 1.2em; }
+
+/*# sourceMappingURL=main.css.map */
