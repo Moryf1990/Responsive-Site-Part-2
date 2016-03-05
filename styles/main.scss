@@ -122,6 +122,7 @@ h1 {
 	font-size: 2em;
 	margin-top: 3em;
 	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0.75em;
 }
 
 article {
@@ -209,10 +210,12 @@ footer {
 		}
 
 		.article {
+			// float: left;
 			line-height: 1.5em;
 			// padding-left: 2em;
 			display: inline-block;
 			width: 45%;
+			// margin-right: -5em;
 			box-sizing: border-box;
 		}
 
@@ -226,6 +229,14 @@ footer {
 
 		footer {
 			text-align: center;
+		}
+
+		h1 {
+			margin: 0 0.5em;
+			font-size: 2em;
+			margin-top: 3em;
+			font-family: 'Source Sans Pro', sans-serif;
+			padding: 1em;
 		}
 	}
 
@@ -247,7 +258,7 @@ footer {
 	}
 
 	.article {
-		// float: left;
+		float: left;
 		line-height: 1.5em;
 		padding-left: 6em;
 		display: inline-block;
@@ -262,5 +273,14 @@ footer {
 	footer {
 		padding-bottom: 1em;
 		text-align: center;
+	}
+
+
+	h1 {
+		margin: 0 0.5em;
+		font-size: 2em;
+		margin-top: 3em;
+		font-family: 'Source Sans Pro', sans-serif;
+		padding: 1em;
 	}
 }
