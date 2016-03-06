@@ -112,8 +112,7 @@ article {
   color: #526066;
   margin: 1em;
   font-weight: lighter;
-  font-size: 1.005em;
-  padding-right: 5em; }
+  font-size: 1.005em; }
 
 footer {
   background: #111;
@@ -181,7 +180,8 @@ footer {
     overflow: hidden; }
 
   article {
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    float: left; }
 
   footer {
     text-align: center; }
@@ -207,11 +207,7 @@ footer {
     width: 25%; }
 
   .article {
-    float: left;
-    line-height: 1.5em;
-    padding-left: 6em;
-    display: inline-block;
-    width: 45%; }
+    line-height: 1.5em; }
 
   article {
     float: left;
@@ -219,13 +215,25 @@ footer {
 
   footer {
     padding-bottom: 1em;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
+
+  .full {
+    display: inline-block;
+    float: left;
+    width: 100%; }
 
   h1 {
     margin: 0 0.5em;
     font-size: 2em;
     margin-top: 3em;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 1em; } }
+    padding: 1em; }
+
+  .left-section {
+    padding-left: 7em; }
+
+  .article-footer {
+    padding-left: 2em; } }
 
 /*# sourceMappingURL=main.css.map */
