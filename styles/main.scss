@@ -52,7 +52,6 @@ nav > a {
 .five {
 	color: #fff;
 	font-size: 6em;
-	// font-family: 'Source Sans Pro', sans-serif;
 }
 
 .green-month {
@@ -133,7 +132,6 @@ article {
 	margin: 1em;
 	font-weight: lighter;
 	font-size: 1.005em;
-	// padding-right: 5em;
 }
 
 footer {
@@ -210,20 +208,14 @@ footer {
 		}
 
 		.article {
-			// float: left;
 			line-height: 1.5em;
-			// padding-left: 2em;
 			display: inline-block;
 			width: 45%;
-			// margin-right: -5em;
 			box-sizing: border-box;
 		}
 
 		.full {
 			overflow: hidden;
-			// display: inline-block;
-			// float: left;
-			// width: 40%;
 		}
 
 		article {
@@ -262,11 +254,7 @@ footer {
 	}
 
 	.article {
-		// float: left;
 		line-height: 1.5em;
-		// padding-left: 6em;
-		// display: inline-block;
-		// width: 45%;
 	}
 
 	article {
@@ -301,5 +289,9 @@ footer {
 
 	.article-footer {
 		padding-left: 2em;
+	}
+
+	.footer2 {
+		width: 70%;
 	}
 }
